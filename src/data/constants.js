@@ -109,7 +109,7 @@ export const skills = [
           "https://aashaykumar.in/wp-content/uploads/2024/01/salesforce-e1705337737860.png",
       },
       {
-        name: "Marketing Cloud Account Engagement(MCAE) - aka Pardot",
+        name: "Marketing Cloud Account Engagement(MCAE) - fka Pardot",
         image:
           "https://aashaykumar.in/wp-content/uploads/2024/01/pardot.png",
       },
@@ -155,11 +155,11 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://aashaykumar.in/wp-content/uploads/2024/01/IBM.png",
+    img: "https://www.phemesoft.com/companywebsite/wp-content/uploads/2022/09/cropped-autoenhance_enrich_Pheme_Logo_edited-300x84.png",
     role: "Machine Learning Project Intern",
-    company: "IBM",
+    company: "Pheme Software Pvt Ltd",
     date: "Present",
-    desc: "As a dedicated Machine Learning Research Engineer at IBM, I lead groundbreaking initiatives in the realm of artificial intelligence, specifically focusing on the development of an innovative AI-based voice assistant. In this role, I play a pivotal part in the evolution of voice technology, harnessing the power of machine learning and natural language processing to create seamless and intuitive voice interactions. My expertise spans various facets of machine learning, encompassing both supervised and unsupervised learning paradigms. Leveraging advanced techniques in deep learning, I actively contribute to the enhancement of speech recognition and natural language understanding. Proficient in frameworks such as TensorFlow and PyTorch, I am adept at translating cutting-edge research into practical solutions that redefine user experiences. Within the domain of voice technology, I specialize in Voice User Interface (VUI) design, ensuring a harmonious fusion of functionality and user-centric design principles. My contributions extend to areas such as Text-to-Speech (TTS) and Automatic Speech Recognition (ASR), where I continuously strive for breakthroughs in accuracy and performance. In the realm of artificial intelligence, my role involves shaping conversational AI and dialog management strategies. I engage in the intricate process of designing and implementing systems that seamlessly comprehend and respond to natural language queries, thereby pushing the boundaries of what AI-driven voice assistants can achieve. Beyond technical proficiency, I actively collaborate within a team-oriented environment, employing agile methodologies to deliver results with efficiency and precision. My commitment to continuous learning ensures that I remain at the forefront of advancements in machine learning and AI, translating theoretical knowledge into impactful solutions. In summary, my tenure at IBM as a Machine Learning Research Engineer reflects a commitment to pioneering advancements in voice technology. From spearheading research initiatives to implementing robust machine learning models, I am dedicated to contributing to the evolution of AI-driven voice assistants, delivering solutions that redefine the way users interact with technology.",
+    desc: "As a dedicated Machine Learning Research Engineer at Pheme Software Pvt Ltd, I lead groundbreaking initiatives in the realm of artificial intelligence, specifically focusing on the development of an innovative AI-based voice assistant. In this role, I play a pivotal part in the evolution of voice technology, harnessing the power of machine learning and natural language processing to create seamless and intuitive voice interactions. My expertise spans various facets of machine learning, encompassing both supervised and unsupervised learning paradigms. Leveraging advanced techniques in deep learning, I actively contribute to the enhancement of speech recognition and natural language understanding. Proficient in frameworks such as TensorFlow and PyTorch, I am adept at translating cutting-edge research into practical solutions that redefine user experiences. Within the domain of voice technology, I specialize in Voice User Interface (VUI) design, ensuring a harmonious fusion of functionality and user-centric design principles. My contributions extend to areas such as Text-to-Speech (TTS) and Automatic Speech Recognition (ASR), where I continuously strive for breakthroughs in accuracy and performance. In the realm of artificial intelligence, my role involves shaping conversational AI and dialog management strategies. I engage in the intricate process of designing and implementing systems that seamlessly comprehend and respond to natural language queries, thereby pushing the boundaries of what AI-driven voice assistants can achieve. Beyond technical proficiency, I actively collaborate within a team-oriented environment, employing agile methodologies to deliver results with efficiency and precision. My commitment to continuous learning ensures that I remain at the forefront of advancements in machine learning and AI, translating theoretical knowledge into impactful solutions. In summary, my tenure at Pheme Software Pvt Ltd as a Machine Learning Research Engineer reflects a commitment to pioneering advancements in voice technology. From spearheading research initiatives to implementing robust machine learning models, I am dedicated to contributing to the evolution of AI-driven voice assistants, delivering solutions that redefine the way users interact with technology.",
     skills: [
       "Machine Learning",
       "Deep Learning",
@@ -222,7 +222,7 @@ export const education = [
     school: "University Of Petroleum & Energy Studies",
     date: "Graduating 2024",
     desc: "I am currently pursuing a Master's degree in Computer Applications which Major Specializes into Machine Learning & Artificial Intelligence from UPES, Dehradun. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    degree: "Master of Computer Applications - MCA (Artificial Intelligence and Machine Learning)",
   },
   {
     id: 3,
@@ -230,7 +230,7 @@ export const education = [
     school: "University Of Petroleum & Energy Studies",
     date: "Aug 2017 - July 2020",
     desc: "Bachelor's degree in Computer Applications from UPES, Dehradun. I have completed 6 semesters and have a CGPA of 6.2. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others, where I have learned and worked on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Computer Applications - BCA, Computer Science and Engineering",
+    degree: "Bachelor of Computer Applications - BCA (Computer Applications)",
   },
   {
     id: 1,
