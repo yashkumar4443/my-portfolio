@@ -1,45 +1,21 @@
 export const Bio = {
   name: "Yash Kumar",
-  roles: [
-    "Frontend Developer",
-    "Programmer",
-  ],
+  roles: ["Frontend Developer", "WordPress Developer", "Programmer"],
   description:
-    "I am a motivated and flexible person, always open to new challenges. I have a strong desire for learning and am committed to delivering excellent results. With a positive attitude and a mindset focused on growth, I am ready to contribute meaningfully and achieve success.",
+    "I am a motivated and versatile developer with a passion for building user-centric web solutions. Skilled in frontend and backend technologies, I specialize in creating responsive, SEO-optimized platforms with modern frameworks like React, Next.js, and WordPress. My expertise extends to AI and machine learning, with a focus on delivering innovative and scalable solutions.",
   github: "https://github.com/yashkumar4443",
   resume:
-    "https://drive.google.com/file/d/1-vcVHiuNJIoznhsZxhU183nxhwdfpT7l/view?usp=sharing",
+    "https://drive.google.com/file/d/1ughLz7RaJthBnAUEvodIXQEDUteevNcy/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/yash-kumar-77b090140/",
-  twitter: "/",
-  insta: "/",
-  facebook: "/",
-  github: "https://github.com/yashkumar4443",
+  phone: "+91-9627204461",
+  email: "yashkumar44431@gmail.com",
+  portfolio: "http://yashportfolio.com/",
 };
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Frontend Technologies",
     skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-      {
-        name: "Wordpress",
-        image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/wordpress.png",
-      },
-      {
-        name: "Drupal ",
-        image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/drupal.png",
-      },
       {
         name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -50,104 +26,193 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
-        name: "JavaScript",
+        name: "JavaScript (ES6+)",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
-        name: "Bootstrap",
+        name: "TypeScript",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
       },
       {
-        name: "Tailwind",
+        name: "React.js",
         image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/tailwind.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
       },
       {
-        name: "Material UI",
+        name: "Next.js",
         image:
-          "data:image/png;base64,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",
+          "https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png",
+      },
+      {
+        name: "Redux",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png",
+      },
+      {
+        name: "WordPress",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg",
+      },
+      {
+        name: "Elementor",
+        image:
+          "https://cdn.wpml.org/wp-content/uploads/2017/09/Elementor-Logo-Symbol-Red.png",
       },
     ],
   },
   {
-    title: "Backend",
+    title: "Backend & APIs",
     skills: [
       {
-        name: "Node Js",
+        name: "Node.js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
-        name: "Python",
+        name: "Express.js",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
       },
       {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        name: "PHP",
+        image: "https://www.php.net/images/logos/new-php-logo.svg",
       },
       {
         name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
       },
       {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+      },
+      {
+        name: "REST APIs",
+        image: "https://dfdmyvckxgqn5.cloudfront.net/_app/immutable/assets/building-elegant-rest-apis.c9888e28.webp",
       },
     ],
   },
-  
   {
-    title: "Others",
+    title: "DevOps & Hosting",
     skills: [
       {
-        name: "Salesforce CRM",
+        name: "Docker",
         image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/salesforce-e1705337737860.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
       },
       {
-        name: "Marketing Cloud Account Engagement(MCAE) - fka Pardot",
+        name: "AWS (EC2, S3)",
         image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/pardot.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png",
       },
       {
-        name: "Salesforce Marketing Cloud",
+        name: "DigitalOcean",
         image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/MarketingCloud.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
       },
       {
-        name: "GitHub",
+        name: "CI/CD (GitHub Actions)",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://github.githubassets.com/images/modules/site/integrators/actions.png",
       },
       {
-        name: "Netlify",
+        name: "Nginx",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://www.nginx.com/wp-content/uploads/2021/06/NGINX-logo-rgb-1.png",
+      },
+    ],
+  },
+  {
+    title: "SEO & Analytics",
+    skills: [
+      {
+        name: "Technical SEO",
+        image: "https://cdn.worldvectorlogo.com/logos/seo-1.svg",
       },
       {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        name: "Google Analytics",
+        image: "https://www.google.com/analytics/images/ga_logo_360x86.png",
       },
       {
-        name: "Postman",
-        image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/postman.jpg",
+        name: "SEMrush",
+        image: "https://cdn.worldvectorlogo.com/logos/semrush-1.svg",
       },
       {
-        name: "Adobe XD",
+        name: "Ahrefs",
+        image: "https://cdn.worldvectorlogo.com/logos/ahrefs.svg",
+      },
+      {
+        name: "Microsoft Clarity",
+        image: "https://clarity.microsoft.com/assets/clarity-logo.svg",
+      },
+      {
+        name: "Structured Data",
+        image: "https://cdn.worldvectorlogo.com/logos/json-ld-seeklogo.svg",
+      },
+      {
+        name: "Facebook Pixel",
+        image: "https://cdn.worldvectorlogo.com/logos/facebook-pixel.svg",
+      },
+      {
+        name: "Hubspot",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/brand-guidelines/Logos/HubSpot-Logo-Orange.png",
+      },
+      {
+        name: "Pardot",
+        image: "https://cdn.worldvectorlogo.com/logos/pardot-1.svg",
+      },
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
       },
       {
         name: "Figma",
         image:
-          "https://aashaykumar.in/wp-content/uploads/2024/01/figma.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
       },
+      {
+        name: "Postman",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg",
+      },
+      {
+        name: "NextAuth.js",
+        image: "https://next-auth.js.org/img/logo/logo-sm.png",
+      },
+      {
+        name: "WooCommerce",
+        image:
+          "https://play-lh.googleusercontent.com/aPsA6vS25mrocOJqZhTZyxm7sntS_IZuHh4oLBI6v-70A_mLV0Fe0spqSDTbK_Fy8As=w480-h960-rw",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Foundations",
+    skills: [
+      { name: "Data Structures & Algorithms" },
+      { name: "MVC Architecture" },
+      { name: "Server-Side Rendering (SSR)" },
+      { name: "Static Site Generation (SSG)" },
+      { name: "Responsive Design" },
     ],
   },
 ];
@@ -155,63 +220,77 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://www.phemesoft.com/companywebsite/wp-content/uploads/2022/09/cropped-autoenhance_enrich_Pheme_Logo_edited-300x84.png",
-    role: "Machine Learning Project Intern",
-    company: "Pheme Software Pvt Ltd",
-    date: "Present",
-    desc: "As a dedicated Machine Learning Research Engineer at Pheme Software Pvt Ltd, I lead groundbreaking initiatives in the realm of artificial intelligence, specifically focusing on the development of an innovative AI-based voice assistant. In this role, I play a pivotal part in the evolution of voice technology, harnessing the power of machine learning and natural language processing to create seamless and intuitive voice interactions. My expertise spans various facets of machine learning, encompassing both supervised and unsupervised learning paradigms. Leveraging advanced techniques in deep learning, I actively contribute to the enhancement of speech recognition and natural language understanding. Proficient in frameworks such as TensorFlow and PyTorch, I am adept at translating cutting-edge research into practical solutions that redefine user experiences. Within the domain of voice technology, I specialize in Voice User Interface (VUI) design, ensuring a harmonious fusion of functionality and user-centric design principles. My contributions extend to areas such as Text-to-Speech (TTS) and Automatic Speech Recognition (ASR), where I continuously strive for breakthroughs in accuracy and performance. In the realm of artificial intelligence, my role involves shaping conversational AI and dialog management strategies. I engage in the intricate process of designing and implementing systems that seamlessly comprehend and respond to natural language queries, thereby pushing the boundaries of what AI-driven voice assistants can achieve. Beyond technical proficiency, I actively collaborate within a team-oriented environment, employing agile methodologies to deliver results with efficiency and precision. My commitment to continuous learning ensures that I remain at the forefront of advancements in machine learning and AI, translating theoretical knowledge into impactful solutions. In summary, my tenure at Pheme Software Pvt Ltd as a Machine Learning Research Engineer reflects a commitment to pioneering advancements in voice technology. From spearheading research initiatives to implementing robust machine learning models, I am dedicated to contributing to the evolution of AI-driven voice assistants, delivering solutions that redefine the way users interact with technology.",
+    img: "https://aashaykumar.in/wp-content/uploads/2025/05/SE_logo.png",
+    role: "WordPress Developer",
+    company: "Sustainability Economics",
+    date: "June 2024 – Present",
+    location: "Bangalore, KA",
+    desc: "Developed NextGen AI News using Next.js, achieving 95+ Lighthouse scores through SSR, ISR, SEO, and RSS integration. Migrated Sustainability Economics News from WordPress to Next.js, improving SEO by 80% and reducing load time by 90%. Built responsive dashboards and REST APIs with React, Node.js, and MongoDB, cutting UI delivery time by 50%. Integrated Google Analytics and Microsoft Clarity for user behavior tracking. Implemented OAuth2 with NextAuth.js for 10K+ users and streamlined AWS EC2 deployment with Docker.",
     skills: [
-      "Machine Learning",
-      "Deep Learning",
-      "Artifical Intelligence",
-      "Python",
-      "Natural Language Processing (NLP)",
-      "Tensorflow",
-      "PyTorch",
-      "Text-to-Speech (TTS)",
-      "Automatic Speech Recognition (ASR)",
-      "Speech Recognition",
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Google Analytics",
+      "Microsoft Clarity",
+      "NextAuth.js",
+      "AWS EC2",
+      "Docker",
+      "SEO",
+      "SSR",
+      "ISR",
     ],
   },
+  // {
+  //   id: 1,
+  //   img: "https://www.phemesoft.com/companywebsite/wp-content/uploads/2022/09/cropped-autoenhance_enrich_Pheme_Logo_edited-300x84.png",
+  //   role: "Machine Learning Project Intern",
+  //   company: "Pheme Software Pvt Ltd",
+  //   date: "Jan 2024 – May 2024",
+  //   location: "Remote",
+  //   desc: "Led development of an AI-based voice assistant, focusing on natural language processing, speech recognition, and voice user interface (VUI) design. Utilized TensorFlow and PyTorch for deep learning models, enhancing text-to-speech (TTS) and automatic speech recognition (ASR) functionalities.",
+  //   skills: [
+  //     "Machine Learning",
+  //     "Deep Learning",
+  //     "Natural Language Processing (NLP)",
+  //     "Python",
+  //     "TensorFlow",
+  //     "PyTorch",
+  //     "Text-to-Speech (TTS)",
+  //     "Automatic Speech Recognition (ASR)",
+  //   ],
+  // },
   {
     id: 1,
     img: "https://www.bugendaitech.com/design/images/logo.png",
-    role: "Associate Developer",
+    role: "Associate PHP/WordPress Developer",
     company: "BugendaiTech Pvt. Ltd.",
-    date: "Oct 2020 - Dec 2023",
-    desc: "Responsible for all Frontend/CMS development work and custom coding, automations, integrations, Salesforce CRM, Marketing Clous and Pardot designing works.",
+    date: "Oct 2020 – Dec 2023",
+    location: "Remote",
+    desc: "Managed CRM, CMS, and integrations with Pardot, Marketing Cloud, and Hubspot for marketing automation. Developed custom WordPress themes, plugins, and WooCommerce projects with payment and end-to-end SEO integrations.",
     skills: [
-      "Salesforce CRM (Apex/LWC)",
-      "PHP",
       "WordPress",
-      "HTML",
-      "CSS",
-      "JQuery",
+      "PHP",
+      "Pardot",
+      "Salesforce Marketing Cloud",
+      "Hubspot",
+      "WooCommerce",
+      "SEO",
       "JavaScript",
       "Bootstrap",
-      "Tailwind",
+      "Tailwind CSS",
       "MySQL",
-      "TypeScript",
-      "Node Js",
-      "React Js",
-      "Marketing Cloud Account Engagement(MCAE) - aka Pardot",
-      "Salesforce Marketing Cloud",
     ],
   },
   {
     id: 2,
-    img: "https://aashaykumar.in/wp-content/uploads/2024/01/upes.png",
-    role: "Machine Learning Project Intern",
-    company: "ICMR Oral Cancer",
-    date: "June 2023 - July 2023",
-    desc: "As a research intern at UPES, College, I have been actively engaged in the field of machine learning, specifically working on the Kaggle platform. My primary focus during this internship has been on building Convolutional Neural Network (CNN) models. Through my work, I have gained valuable experience in leveraging machine learning techniques and algorithms to analyse and interpret complex datasets. My role has allowed me to develop expertise in CNN architecture, data pre-processing, model training, and performance evaluation. I have also honed my skills in Python programming and various machine learning libraries. Overall, my internship experience has provided me with practical knowledge and hands-on experience in the exciting field of machine learning and deep learning.",
-    skills: [
-      "Machine Learning",
-      "Deep Learning",
-      "Artifical Intelligence",
-      "Python",
-      "Tensorflow",
-    ],
+    img: "https://www.bugendaitech.com/design/images/logo.png",
+    role: "WordPress Developer - Intern",
+    company: "BugendaiTech Pvt. Ltd.",
+    date: "June 2020 – Sep 2020",
+    location: "Remote",
+    desc: "Designed WordPress landing pages and set up analytics with Google Analytics and Hubspot.",
+    skills: ["WordPress", "Google Analytics", "Hubspot"],
   },
 ];
 
@@ -219,80 +298,182 @@ export const education = [
   {
     id: 0,
     img: "https://aashaykumar.in/wp-content/uploads/2024/01/upes.png",
-    school: "University Of Petroleum & Energy Studies",
-    date: "Graduating 2024",
-    desc: "I am currently pursuing a Master's degree in Computer Applications which Major Specializes into Machine Learning & Artificial Intelligence from UPES, Dehradun. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Master of Computer Applications - MCA (Artificial Intelligence and Machine Learning)",
-  },
-  {
-    id: 3,
-    img: "https://aashaykumar.in/wp-content/uploads/2024/01/upes.png",
-    school: "University Of Petroleum & Energy Studies",
-    date: "Aug 2017 - July 2020",
-    desc: "Bachelor's degree in Computer Applications from UPES, Dehradun. I have completed 6 semesters and have a CGPA of 6.2. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others, where I have learned and worked on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Computer Applications - BCA (Computer Applications)",
+    school: "University of Petroleum & Energy Studies, Dehradun",
+    date: "2022 – 2024",
+    desc: "Pursued a Master's degree in Computer Applications specializing in Artificial Intelligence and Machine Learning. Studied Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.",
+    degree:
+      "Master of Computer Applications - MCA (Artificial Intelligence and Machine Learning)",
   },
   {
     id: 1,
-    img: "https://aashaykumar.in/wp-content/uploads/2024/01/12class.png",
-    school: "MS Memorial Public School, Motihari",
-    date: "Apr 2017",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "CBSE(XII), PCM",
+    img: "https://aashaykumar.in/wp-content/uploads/2024/01/upes.png",
+    school: "University of Petroleum & Energy Studies, Dehradun",
+    date: "2017 – 2020",
+    desc: "Completed a Bachelor's degree in Computer Applications with a CGPA of 6.2. Studied Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.",
+    degree: "Bachelor of Computer Applications - BCA",
   },
   {
     id: 2,
+    img: "https://aashaykumar.in/wp-content/uploads/2024/01/12class.png",
+    school: "MS Memorial Public School, Motihari",
+    date: "2017",
+    desc: "Completed Class 12 with a focus on Science and Computer Science under the CBSE curriculum.",
+    degree: "CBSE (XII), PCM",
+  },
+  {
+    id: 3,
     img: "https://aashaykumar.in/wp-content/uploads/2024/01/10class.png",
     school: "RBN Global School, Lucknow",
-    date: "Apr 2015",
-    desc: "I completed my class 10 education from RBN Global School (CBSE).",
-    degree: "CBSE(X)",
+    date: "2015",
+    desc: "Completed Class 10 under the CBSE curriculum.",
+    degree: "CBSE (X)",
   },
 ];
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
+    title: "NextGen AI News",
+    description:
+      "Built a Next.js-based platform with SSR, ISR, SEO, and RSS integration, achieving 95+ Lighthouse scores. Integrated Google Analytics and Microsoft Clarity for user behavior tracking, and implemented OAuth2 with NextAuth.js for large base users.",
+    image: "https://aashaykumar.in/wp-content/uploads/2025/05/ngainews-ss.png",
+    tags: [
+      "Next.js",
+      "React.js",
+      "SEO",
+      "Google Analytics",
+      "Microsoft Clarity",
+      "NextAuth.js",
+    ],
+    category: "web app",
+    webapp: "https://ngainews.com/",
+  },
+  {
+    id: 4,
+    title: "Sustainability Economics News",
+    description:
+      "Developed a Next.js-based news platform similar to NextGen AI News, leveraging SSR, ISR, and SEO optimizations to achieve 95+ Lighthouse scores. Migrated content from WordPress to Next.js, reducing load time by 90% and improving SEO by 80%. Integrated Google Analytics, Microsoft Clarity, and OAuth2 with NextAuth.js for user authentication and behavior tracking.",
+    image:
+      "https://aashaykumar.in/wp-content/uploads/2025/05/SEN-ss.png",
+    tags: [
+      "Next.js",
+      "React.js",
+      "SEO",
+      "Google Analytics",
+      "Microsoft Clarity",
+      "NextAuth.js",
+      "SSR",
+      "ISR",
+    ],
+    category: "web app",
+    webapp: "https://sustainabilityeconomicsnews.com/",
+  },
+  {
+    id: 1,
     title: "MyCleanHome",
     description:
-      "I am excited to showcase my project, the CleanHome website, where I leveraged the power of WordPress to create a dynamic and user-friendly platform dedicated to professional home cleaning services. Key Features: WordPress Customization: The website is meticulously crafted using WordPress, allowing for a seamless and intuitive user experience. I tailored the WordPress theme to align with CleanHome's brand identity, ensuring a visually appealing and cohesive design. Responsive Design: Recognizing the importance of accessibility, I implemented a responsive design, making the CleanHome website fully functional and visually stunning across various devices, including desktops, tablets, and smartphones. Custom Modules and Sections: To enhance user engagement, I incorporated custom modules and sections tailored to CleanHome's specific needs. This includes interactive sliders, service showcases, and a user-friendly booking system. Integration of Booking System: One of the highlights of this project is the seamless integration of a booking system. Visitors can easily schedule home cleaning services directly through the website, streamlining the entire process for both clients and CleanHome staff. WordPress Plugins for Functionality: I strategically integrated essential WordPress plugins to enhance functionality. This includes SEO optimization for better visibility, security plugins to safeguard user data, and performance optimization for a speedy browsing experience. Content Management: The website's content is efficiently managed through the WordPress CMS, allowing CleanHome's team to update service offerings, pricing, and other relevant information effortlessly. Social Media Integration: Recognizing the importance of an online presence, I integrated social media platforms seamlessly. This facilitates easy sharing of CleanHome's services and allows for social proof through client testimonials and reviews. Building the CleanHome website on WordPress with customizations and integrations was a rewarding experience, and I am proud to present a digital space that not only reflects the brand's professionalism but also prioritizes user convenience and engagement.",
+      "Built a WordPress-based website for professional home cleaning services with a focus on SEO (81/100 score) and user engagement. Implemented an instant quote system and streamlined booking process, optimizing meta tags and structured data for better visibility.",
     image:
-      "https://mycleanhome.com/wp-content/uploads/2021/07/dd-logo-jul20-trans.png",
-    tags: [
-      "WordPress",
-      "PHP",
-      "Rest API",
-      "Integrations",
-      "Customizations",
-    ],
+      "https://aashaykumar.in/wp-content/uploads/2025/05/mycleanhome-ss.png",
+    tags: ["WordPress", "PHP", "SEO", "Structured Data"],
     category: "web app",
     webapp: "https://mycleanhome.com",
   },
   {
-    id: 0,
-    title: "PRB Family Planning",
+    id: 2,
+    title: "Tea Time Stories E-Commerce Website",
     description:
-      "Welcome to my project showcase featuring a comprehensive report on the status of family planning programs in 22 Sub-Saharan African (SSA) countries over the last five years. Leveraging my expertise in WordPress, PHP, and strategic integrations, I've created an informative and visually engaging platform that delves into the critical role of family planning in fostering economic growth, equity, and resilience. Key Features: WordPress Foundation: The website is built on WordPress, providing a robust and user-friendly content management system. This allows for seamless updates, ensuring that the content remains current and relevant. PHP Dynamics: Harnessing the power of PHP, I've implemented dynamic elements that enhance the user experience. This includes real-time data updates, interactive features, and a personalized journey through the report. Data Visualization with Google Charts and Charts.js: Transforming complex data into insightful visuals, I've integrated Google Charts and Charts.js. These dynamic charting libraries bring the family planning program statistics to life, making the information accessible and easily understandable. Rest API Integration: To ensure the most up-to-date information, I've seamlessly integrated Rest APIs. This allows the website to fetch and display real-time data, providing users with the latest insights into family planning initiatives across the SSA region. Strategic Integrations: Beyond Rest API, the project incorporates various integrations for optimal functionality. This includes social media sharing capabilities, allowing users to disseminate key findings effortlessly. Customizations for User Engagement: Understanding the importance of user engagement, I've implemented custom features that enhance the overall browsing experience. From intuitive navigation to interactive elements, the website is designed to captivate and inform. This project stands as a testament to my skills in WordPress development, PHP scripting, and strategic integrations. By combining these technologies, I've created a digital platform that not only disseminates crucial information but also invites users to explore and understand the vital role of family planning in shaping the socio-economic landscape of Sub-Saharan Africa.",
+      "Developed a full e-commerce platform using custom WordPress and WooCommerce, integrating secure end-to-end payment gateways and responsive design for seamless user experience.",
+    image:
+      "https://aashaykumar.in/wp-content/uploads/2025/05/Teatimestoriesbygitanjali-ss.png",
+    tags: ["WordPress", "WooCommerce", "PHP", "Payment Gateways"],
+    category: "web app",
+    webapp: "https://teatimestoriesbygitaanjali.com/",
+  },
+  {
+    id: 3,
+    title: "2022 Family Planning Review Website",
+    description:
+      "Developed a custom responsive WordPress platform for PRB’s 2022 Family Planning Review, covering trends in 22 Sub-Saharan African countries. Integrated Highcharts, Google Charts, and multilingual support (English/French) for enhanced engagement. Configured Google Analytics and REST APIs for real-time data tracking.",
     image:
       "https://2022-family-planning-review.prb.org/wp-content/uploads/2022/05/cropped-Favicon-512.png",
     tags: [
       "WordPress",
       "PHP",
+      "Highcharts",
       "Google Charts",
-      "Charts.js",
-      "Rest API",
-      "Integrations",
-      "Customizations",
+      "REST APIs",
+      "Google Analytics",
     ],
     category: "web app",
     webapp: "https://2022-family-planning-review.prb.org/",
   },
+  {
+    id: 5,
+    title: "Shopplyft",
+    description:
+      "Created a WordPress-based e-commerce platform for Shopplyft, focusing on responsive design and SEO optimizations. Integrated WooCommerce for seamless product management and payment gateways, enhancing user experience and conversion rates.",
+    image:
+      "https://aashaykumar.in/wp-content/uploads/2025/05/Shopplyft-ss.png",
+    tags: ["WordPress", "WooCommerce", "PHP", "SEO", "Payment Gateways"],
+    category: "web app",
+    webapp: "https://shopplyft.com/",
+  },
+  {
+    id: 6,
+    title: "Renascence Center",
+    description:
+      "Built a WordPress website for Renascence CENTER, a wellness and therapy service provider, with a focus on user-friendly design and SEO. Implemented custom forms and booking integrations to streamline client interactions and improve online visibility.",
+    image:
+      "https://aashaykumar.in/wp-content/uploads/2025/05/renascencecenter-ss.png",
+    tags: ["WordPress", "PHP", "SEO", "Custom Forms"],
+    category: "web app",
+    webapp: "https://www.renascencecenter.com/",
+  },
+  {
+    id: 7,
+    title: "Aitobi",
+    description:
+      "Designed a WordPress-based website for Aitobi, focusing on clean design and SEO optimizations. Integrated custom plugins for enhanced functionality and user engagement, ensuring a seamless experience across devices.",
+    image: "https://aashaykumar.in/wp-content/uploads/2025/05/aitobi-ss.png",
+    tags: ["WordPress", "PHP", "SEO", "Custom Plugins"],
+    category: "web app",
+    webapp: "https://aitobi.co/",
+  },
+  {
+    id: 8,
+    title: "BugendaiTech",
+    description:
+      "Contributed to the development of BugendaiTech’s custom WordPress website, integrating bespoke themes and plugins for enhanced functionality. Focused on SEO, responsive design, and analytics integrations to showcase the company’s tech services.",
+    image: "https://aashaykumar.in/wp-content/uploads/2025/05/bgtech-ss.png",
+    tags: [
+      "WordPress",
+      "PHP",
+      "SEO",
+      "Custom Themes",
+      "Custom Plugins",
+      "Google Analytics",
+    ],
+    category: "web app",
+    webapp: "https://bugendaitech.com/",
+  },
+  {
+    id: 9,
+    title: "Aashay Kumar",
+    description:
+      "Built a custom WordPress portfolio website to showcase my skills, projects, and experiences. Implemented SEO optimizations, responsive design, and custom integrations to create a professional and engaging online presence.",
+    image:
+      "https://aashaykumar.in/wp-content/uploads/2025/05/aashay-ss.png",
+    tags: ["WordPress", "PHP", "SEO", "Custom Themes", "Responsive Design"],
+    category: "web app",
+    webapp: "https://aashaykumar.in/",
+  },
 ];
 
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
+export const certifications = [
+  { name: "Angular (Basic)", issuer: "HackerRank" },
+  { name: "React (Basic)", issuer: "HackerRank" },
+  { name: "Google Analytics for Beginners", issuer: "Google" },
+  { name: "SEMrush SEO Toolkit", issuer: "SEMrush" },
+  { name: "Inbound Marketing", issuer: "Hubspot" },
+];
