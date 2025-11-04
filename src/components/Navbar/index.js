@@ -5,6 +5,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import { Link } from "react-router-dom"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -28,6 +29,9 @@ const Navbar = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink as={Link} to="/blog">
+            Blog
+          </NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href="https://github.com/yashkumar4443" target="_blank">Github Profile</GitHubButton>
@@ -50,6 +54,9 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
+            <MobileLink as={Link} to="/blog" onClick={() => setIsOpen(false)}>
+              Blog
+            </MobileLink>
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
