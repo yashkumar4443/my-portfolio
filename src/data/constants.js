@@ -332,43 +332,6 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
-    title: "NextGen AI News",
-    description:
-      "Built a Next.js-based platform with SSR, ISR, SEO, and RSS integration, achieving 95+ Lighthouse scores. Integrated Google Analytics and Microsoft Clarity for user behavior tracking, and implemented OAuth2 with NextAuth.js for large base users.",
-    image: "https://aashaykumar.in/wp-content/uploads/2025/05/ngainews-ss.png",
-    tags: [
-      "Next.js",
-      "React.js",
-      "SEO",
-      "Google Analytics",
-      "Microsoft Clarity",
-      "NextAuth.js",
-    ],
-    category: "web app",
-    webapp: "https://ngainews.com/",
-  },
-  {
-    id: 4,
-    title: "Sustainability Economics News",
-    description:
-      "Developed a Next.js-based news platform similar to NextGen AI News, leveraging SSR, ISR, and SEO optimizations to achieve 95+ Lighthouse scores. Migrated content from WordPress to Next.js, reducing load time by 90% and improving SEO by 80%. Integrated Google Analytics, Microsoft Clarity, and OAuth2 with NextAuth.js for user authentication and behavior tracking.",
-    image:
-      "https://aashaykumar.in/wp-content/uploads/2025/05/SEN-ss.png",
-    tags: [
-      "Next.js",
-      "React.js",
-      "SEO",
-      "Google Analytics",
-      "Microsoft Clarity",
-      "NextAuth.js",
-      "SSR",
-      "ISR",
-    ],
-    category: "web app",
-    webapp: "https://sustainabilityeconomicsnews.com/",
-  },
-  {
     id: 1,
     title: "MyCleanHome",
     description:
