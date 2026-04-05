@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeroSection from "./components/HeroSection";
-import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -13,8 +12,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
-import Blog from "./components/Blog";
-import OpenAISetup from "./components/Blog/OpenAISetup.js";
+import Blog, { BlogPost } from "./components/Blog";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -39,7 +37,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
 
   return (
@@ -47,7 +45,6 @@ function App() {
       <Router>
         <Navbar />
         <Body>
-          {/* ✅ Define all your routes here */}
           <Routes>
             <Route
               path="/"
@@ -76,9 +73,11 @@ function App() {
                 </>
               }
             />
-            {/* ✅ Blog route */}
+
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/openai-setup-and-prompt-strategies" element={<OpenAISetup />} />
+
+            <Route path="/blog/:slug" element={<BlogPost />} />
+
           </Routes>
         </Body>
       </Router>

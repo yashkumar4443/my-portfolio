@@ -23,27 +23,27 @@ export const skills = [
       {
         name: "CSS3",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
       {
         name: "JavaScript (ES6+)",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
         name: "TypeScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
       },
       {
         name: "React.js",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "Next.js",
         image:
-          "https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png",
+          "https://img.icons8.com/?size=512&id=yUdJlcKanVbh&format=png",
       },
       {
         name: "Redux",
@@ -53,7 +53,7 @@ export const skills = [
       {
         name: "Tailwind CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6e/Hasyim50px-TailwindCSS_Logo.png",
       },
       {
         name: "WordPress",
@@ -72,12 +72,12 @@ export const skills = [
     skills: [
       {
         name: "Node.js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "Express.js",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+          "https://images.codingblocks.com/web/express.png",
       },
       {
         name: "PHP",
@@ -86,7 +86,7 @@ export const skills = [
       {
         name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
       {
         name: "MySQL",
@@ -110,7 +110,7 @@ export const skills = [
       {
         name: "AWS (EC2, S3)",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
       },
       {
         name: "DigitalOcean",
@@ -119,58 +119,56 @@ export const skills = [
       },
       {
         name: "CI/CD (GitHub Actions)",
-        image:
-          "https://github.githubassets.com/images/modules/site/integrators/actions.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
       },
       {
         name: "Nginx",
         image:
-          "https://www.nginx.com/wp-content/uploads/2021/06/NGINX-logo-rgb-1.png",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
       },
     ],
   },
   {
-    title: "SEO & Analytics",
-    skills: [
-      {
-        name: "Technical SEO",
-        image: "https://cdn.worldvectorlogo.com/logos/seo-1.svg",
-      },
-      {
-        name: "Google Analytics",
-        image: "https://www.google.com/analytics/images/ga_logo_360x86.png",
-      },
-      {
-        name: "SEMrush",
-        image: "https://cdn.worldvectorlogo.com/logos/semrush-1.svg",
-      },
-      {
-        name: "Ahrefs",
-        image: "https://cdn.worldvectorlogo.com/logos/ahrefs.svg",
-      },
-      {
-        name: "Microsoft Clarity",
-        image: "https://clarity.microsoft.com/assets/clarity-logo.svg",
-      },
-      {
-        name: "Structured Data",
-        image: "https://cdn.worldvectorlogo.com/logos/json-ld-seeklogo.svg",
-      },
-      {
-        name: "Facebook Pixel",
-        image: "https://cdn.worldvectorlogo.com/logos/facebook-pixel.svg",
-      },
-      {
-        name: "Hubspot",
-        image:
-          "https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/brand-guidelines/Logos/HubSpot-Logo-Orange.png",
-      },
-      {
-        name: "Pardot",
-        image: "https://cdn.worldvectorlogo.com/logos/pardot-1.svg",
-      },
-    ],
-  },
+  title: "SEO & Analytics",
+  skills: [
+    {
+      name: "Technical SEO",
+      image: "https://cdn.simpleicons.org/google"
+    },
+    {
+      name: "Google Analytics",
+      image: "https://cdn.simpleicons.org/googleanalytics"
+    },
+    {
+      name: "SEMrush",
+      image: "https://cdn.simpleicons.org/semrush"
+    },
+    {
+      name: "Ahrefs",
+      image: "https://ahrefs.com/assets/esbuild/primary-blue-BJ5CMGSK.png"
+    },
+    {
+      name: "Microsoft Clarity",
+      image: "https://clarity.microsoft.com/blog/wp-content/uploads/2025/02/siteIcon.png"
+    },
+    {
+      name: "Structured Data",
+      image: "https://cdn.simpleicons.org/json"
+    },
+    {
+      name: "Facebook Pixel",
+      image: "https://cdn.simpleicons.org/facebook"
+    },
+    {
+      name: "HubSpot",
+      image: "https://cdn.simpleicons.org/hubspot"
+    },
+    {
+      name: "Pardot",
+      image: "https://cdn.simpleicons.org/salesforce/00A1E0"
+    }
+  ]
+},
   {
     title: "Tools & Platforms",
     skills: [
@@ -220,12 +218,34 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://aashaykumar.in/wp-content/uploads/2026/04/Statusneo-img.png",
+    role: "Senior Consultant",
+    company: "Statusneo Technology Consulting Pvt Ltd",
+    link: "https://statusneo.com",
+    doc: "https://aashaykumar.in/wp-content/uploads/2026/04/cwv-paragonhealthcare.png",
+    date: "July 2025 – Present",
+    location: "Gurugram",
+    desc: "Managing and scaling the WordPress platform for Paragon Healthcare (Carelon / Elevance Health), supporting 35,000+ patients across 40+ U.S. locations. Leading performance optimization, SEO, and large-scale content operations on WP Engine. Improved Core Web Vitals, ensured high availability, and delivered continuous enhancements for a secure, high-traffic healthcare platform. Remediated 15,000+ accessibility issues in line with WCAG standards, enhancing compliance and user experience across the platform.",
+    skills: [
+      "Wordpress",
+      "WP-Engine",
+      "Oxygen Builder",
+      "Node.js",
+      "Azure",
+      "Google Analytics",
+      "Docker",
+      "SEO",
+    ],
+  },
+  {
+    id: 1,
     img: "https://aashaykumar.in/wp-content/uploads/2025/05/SE_logo.png",
     role: "WordPress Developer",
     company: "Sustainability Economics",
-    date: "June 2024 – Present",
+    link: "https://sustainabilityeconomics.ai",
+    date: "June 2024 – June 2025",
     location: "Bangalore, KA",
-    desc: "Developed NextGen AI News using Next.js, achieving 95+ Lighthouse scores through SSR, ISR, SEO, and RSS integration. Migrated Sustainability Economics News from WordPress to Next.js, improving SEO by 80% and reducing load time by 90%. Built responsive dashboards and REST APIs with React, Node.js, and MongoDB, cutting UI delivery time by 50%. Integrated Google Analytics and Microsoft Clarity for user behavior tracking. Implemented OAuth2 with NextAuth.js for 10K+ users and streamlined AWS EC2 deployment with Docker.",
+    desc: "Developed NextGen AI News using Wordpress and Next.js, achieving 95+ Lighthouse scores through SSR, ISR, SEO, and RSS integration. Migrated Sustainability Economics News from WordPress to Next.js, improving SEO by 80% and reducing load time by 90%. Built responsive dashboards and REST APIs with React, Node.js, and MongoDB, cutting UI delivery time by 50%. Integrated Google Analytics and Microsoft Clarity for user behavior tracking. Implemented OAuth2 with NextAuth.js for 10K+ users and streamlined AWS EC2 deployment with Docker.",
     skills: [
       "Next.js",
       "React.js",
@@ -261,10 +281,11 @@ export const experiences = [
   //   ],
   // },
   {
-    id: 1,
+    id: 2,
     img: "https://www.bugendaitech.com/design/images/logo.png",
     role: "Associate PHP/WordPress Developer",
     company: "BugendaiTech Pvt. Ltd.",
+    link: "https://bugendaitech.com",
     date: "Oct 2020 – Dec 2023",
     location: "Remote",
     desc: "Managed CRM, CMS, and integrations with Pardot, Marketing Cloud, and Hubspot for marketing automation. Developed custom WordPress themes, plugins, and WooCommerce projects with payment and end-to-end SEO integrations.",
@@ -283,10 +304,11 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: "https://www.bugendaitech.com/design/images/logo.png",
     role: "WordPress Developer - Intern",
     company: "BugendaiTech Pvt. Ltd.",
+    link: "https://bugendaitech.com",
     date: "June 2020 – Sep 2020",
     location: "Remote",
     desc: "Designed WordPress landing pages and set up analytics with Google Analytics and Hubspot.",
@@ -331,6 +353,27 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 0,
+    title: "Paragonhealthcare",
+    description:
+      "Managed and scaled the enterprise WordPress platform for Paragon Healthcare (Carelon / Elevance Health), serving 35,000+ patients across 40+ U.S. locations. Led performance optimization achieving Core Web Vitals 'Passed' status (LCP: 1.2s, INP: 28ms, CLS: 0.06). Improved SEO, platform stability, and accessibility by remediating 15,000+ WCAG issues. Ensured high availability and continuous enhancements on WP Engine for a secure, high-traffic healthcare system.",
+    image:
+      "https://aashaykumar.in/wp-content/uploads/2026/04/paragonhealthcare.jpeg",
+    tags: ["WordPress", "PHP", "SEO", "Oxygen Builder", "WP Engine"],
+    category: "web app",
+    webapp: "https://paragonhealthcare.com",
+  },
+  {
+    id: 1,
+    title: "RemOrganics",
+    description: "Built and managed the Shopify e-commerce store for Rem Organics Pvt. Ltd. — an Indian manufacturer and exporter of organic Makhana's — handling theme customization, product catalog setup, and store management",
+    image:
+      "https://aashaykumar.in/wp-content/uploads/2026/04/remorganics-scaled.png",
+    tags: ["Shoppify", "PHP", "SEO"],
+    category: "web app",
+    webapp: "https://remorganics.com/",
+  },
   {
     id: 1,
     title: "MyCleanHome",
