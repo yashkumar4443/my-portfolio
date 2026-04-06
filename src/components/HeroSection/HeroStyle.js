@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
 
 //url('/backgroundimage.jpg')
 export const HeroContainer = styled.div`
