@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile developer with a passion for building user-centric web solutions. Skilled in frontend and backend technologies, I specialize in creating responsive, SEO-optimized platforms with modern frameworks like React, Next.js, and WordPress. My expertise extends to AI and machine learning, with a focus on delivering innovative and scalable solutions.",
   github: "https://github.com/yashkumar4443",
   resume:
-    "https://drive.google.com/file/d/1ughLz7RaJthBnAUEvodIXQEDUteevNcy/view?usp=sharing",
+    "https://drive.google.com/file/d/18iu5hQyx7CySIfRBbMYbUgXmhPM0QEQr/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/yash-kumar-77b090140/",
   phone: "+91-9627204461",
   email: "yashkumar44431@gmail.com",
