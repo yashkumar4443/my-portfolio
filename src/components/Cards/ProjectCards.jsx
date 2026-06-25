@@ -18,10 +18,11 @@ const Button = styled.button`
 const Card = styled.div`
     width: 330px;
     height: 490px;
-    background-color: ${({ theme }) => theme.card};
+    background: linear-gradient(145deg, ${({ theme }) => theme.card}, ${({ theme }) => theme.bgLight});
     cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
+    border-radius: 16px;
+    border: 1px solid ${({ theme }) => theme.border};
+    box-shadow: 0 20px 54px rgba(0,0,0,0.24);
     overflow: hidden;
     padding: 26px 20px;
     display: flex;
@@ -30,7 +31,7 @@ const Card = styled.div`
     transition: all 0.5s ease-in-out;
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
+        box-shadow: 0 26px 64px ${({ theme }) => theme.primarySoft};
         filter: brightness(1.1);
     }
     &:hover ${Button} {
@@ -42,8 +43,9 @@ const Image = styled.img`
     width: 100%;
     height: 180px;
     background-color: ${({ theme }) => theme.white};
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+    object-fit: cover;
 `
 
 const Tags = styled.div`
@@ -59,7 +61,7 @@ const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
     color: ${({ theme }) => theme.primary};
-    background-color: ${({ theme }) => theme.primary + 15};
+    background-color: ${({ theme }) => theme.primarySoft};
     padding: 2px 8px;
     border-radius: 10px;
 `
@@ -122,9 +124,9 @@ const Avatar = styled.img`
     border: 3px solid ${({ theme }) => theme.card};
 `
 
-const ProjectCards = ({project,setOpenModal}) => {
+const ProjectCards = ({project,setOpenModal, className}) => {
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})}>
+        <Card className={className} onClick={() => setOpenModal({state: true, project: project})}>
             <Image src={project.image}/>
             <Tags>
                 {project.tags?.map((tag, index) => (

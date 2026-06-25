@@ -18,68 +18,66 @@ const Description = styled.div`
     font-size: 15px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
-    margin-bottom: 10px;
+    line-height: 1.7;
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size: 13px;
     }
 `
 
 const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
+display: block;
 max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
 `
 
 const Card = styled.div`
-    width: 650px;
-    border-radius: 10px;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-    padding: 12px 16px;
+    width: 100%;
+    max-width: 760px;
+    border-radius: 16px;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
+    padding: 20px 22px;
     justify-content: space-between;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    background: linear-gradient(145deg, ${({ theme }) => theme.card}, ${({ theme }) => theme.bgLight});
+    border: 1px solid ${({ theme }) => theme.border};
     transition: all 0.3s ease-in-out;
     &:hover{
-        box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
-        transform: translateY(-5px);
+        border-color: ${({ theme }) => theme.primary};
+        box-shadow: 0 22px 52px ${({ theme }) => theme.primarySoft};
+        transform: translateY(-4px);
     }
     @media only screen and (max-width: 768px){
-        padding: 10px;
+        padding: 16px;
         gap: 8px;
-        width: 300px;
     }
 
     &:hover ${Document}{
         display: flex;
     }
-
-    &:hover ${Span}{
-        overflow: visible;
-        -webkit-line-clamp: unset;
-
-    }
-    border: 0.1px solid #854CE6;
 `
 
 const Top = styled.div`
     width: 100%;
     display: flex;
-    gap: 12px
+    gap: 14px;
+    align-items: flex-start;
 `
 
 const Image = styled.img`
-    height: 50px;
-    background-color: transparent;
-    border-radius: 10px;
-    margin-top: 4px;
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 12px;
+    padding: 7px;
+    flex: 0 0 54px;
     @media only screen and (max-width: 768px){
-        height: 40px;
+        width: 44px;
+        height: 44px;
+        flex-basis: 44px;
     }
 `
 
@@ -94,8 +92,9 @@ const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
+    line-height: 1.35;
     @media only screen and (max-width: 768px){
-        font-size: 14px;
+        font-size: 16px;
     }
 `
 

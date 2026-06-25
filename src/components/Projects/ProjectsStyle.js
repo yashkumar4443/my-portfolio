@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
+    background:
+        radial-gradient(circle at 78% 12%, ${({ theme }) => theme.accentSoft}, transparent 28%),
+        ${({ theme }) => theme.bg};
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +21,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 10px 0px 100px 0;
+    padding: 76px 20px 110px;
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
@@ -27,15 +29,15 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
-font-size: 42px;
-text-align: center;
-font-weight: 600;
-margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
-  @media (max-width: 768px) {
-      margin-top: 12px;
-      font-size: 32px;
-  }
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: ${({ theme }) => theme.text_primary};
+    @media (max-width: 768px) {
+        margin-top: 12px;
+        font-size: 32px;
+    }
 `;
 
 export const Desc = styled.div`
@@ -51,7 +53,7 @@ export const Desc = styled.div`
 
 export const ToggleButtonGroup = styled.div`
     display: flex;
-    border: 1.5px solid ${({ theme }) => theme.primary};
+    border: 1px solid ${({ theme }) => theme.border};
     color: ${({ theme }) => theme.primary};
     font-size: 16px;
     border-radius: 12px;
@@ -68,22 +70,22 @@ export const ToggleButton = styled.div`
     cursor: pointer;
     ${({ active, theme }) =>
         active && `
-    background: ${theme.primary + 20};
-    `
+            background: ${theme.primarySoft};
+        `
     }
     &:hover {
-        background: ${({ theme }) => theme.primary + 8};
+        background: ${({ theme }) => theme.primarySoft};
     }
     @media (max-width: 768px) {
         padding: 6px 8px;
         border-radius: 4px;
     }
 `
+
 export const Divider = styled.div`
     width: 1.5px;
-    background: ${({ theme }) => theme.primary};
+    background: ${({ theme }) => theme.border};
 `
-
 
 export const CardContainer = styled.div`
     display: flex;
@@ -91,14 +93,5 @@ export const CardContainer = styled.div`
     align-items: center;
     gap: 28px;
     flex-wrap: wrap;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-gap: 32px;
-    // grid-auto-rows: minmax(100px, auto);
-    // @media (max-width: 960px) {
-    //     grid-template-columns: repeat(2, 1fr);
-    // }
-    // @media (max-width: 640px) {
-    //     grid-template-columns: repeat(1, 1fr);
-    // }
+    background: rgba(255, 255, 255, 0.035);
 `;

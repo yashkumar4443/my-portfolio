@@ -24,14 +24,26 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [isScrolled, setIsScrolled] = React.useState(false);
   const theme = useTheme();
 
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 24);
+    };
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <Nav>
+    <Nav $isScrolled={isScrolled} $isOpen={isOpen}>
       <NavbarContainer>
 
         {/* LOGO */}
-        <NavLogo to='/' style={{ display: "flex", alignItems: "center", color: "white", cursor: 'pointer' }}>
+        <NavLogo to='/'>
           <DiCssdeck size="2.5rem" />
           <Span>Portfolio</Span>
         </NavLogo>
@@ -119,7 +131,7 @@ const Navbar = () => {
               <GitHubButton
                 style={{
                   padding: '10px 16px',
-                  background: '#854CE6',
+                  background: theme.primary,
                   color: 'white',
                   width: 'max-content',
                   marginTop: '10px'

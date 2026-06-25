@@ -1,4 +1,5 @@
 import React from 'react'
+import { gsap } from 'gsap'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -11,6 +12,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+overflow: hidden;
 @media (max-width: 960px) {
     padding: 0px;
 }
@@ -61,9 +63,10 @@ const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme.card};
+  border: 1px solid ${({ theme }) => theme.border};
   padding: 32px;
   border-radius: 16px;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  box-shadow: 0 22px 52px rgba(0, 0, 0, 0.22);
   margin-top: 28px;
   gap: 12px;
 `
@@ -107,15 +110,12 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: linear-gradient(135deg, ${({ theme }) => theme.primary} 0%, ${({ theme }) => theme.accent} 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.bg};
   font-size: 18px;
   font-weight: 600;
 `
@@ -127,6 +127,47 @@ const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
   const form = useRef();
+  const contactRef = React.useRef(null);
+
+  React.useLayoutEffect(() => {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (reduceMotion || !contactRef.current) {
+      return undefined;
+    }
+
+    let observer;
+
+    const context = gsap.context(() => {
+      gsap.set('.contact-reveal', { autoAlpha: 0, y: 30 });
+
+      const timeline = gsap.timeline({ paused: true, defaults: { ease: 'power3.out' } });
+
+      timeline.to('.contact-reveal', {
+        autoAlpha: 1,
+        y: 0,
+        duration: 0.7,
+        stagger: 0.12,
+      });
+
+      observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            timeline.play();
+            observer.disconnect();
+          }
+        },
+        { threshold: 0.2 }
+      );
+
+      observer.observe(contactRef.current);
+    }, contactRef);
+
+    return () => {
+      observer?.disconnect();
+      context.revert();
+    };
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -142,12 +183,12 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container ref={contactRef}>
       <Wrapper>
-        <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+        <Title className="contact-reveal">Contact</Title>
+        <Desc className="contact-reveal">Feel free to reach out to me for any questions or opportunities!</Desc>
+        <ContactForm className="contact-reveal" ref={form} onSubmit={handleSubmit}>
+          <ContactTitle>Email Me</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />

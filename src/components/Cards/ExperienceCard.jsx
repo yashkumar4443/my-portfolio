@@ -2,11 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Document = styled.img`
-    display: none;
-    height: 70px;
-    width: fit-content;
+    display: block;
+    height: 64px;
+    width: auto;
+    max-width: 180px;
     background-color: #000;
     border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     &:hover{
         cursor: pointer;
         opacity: 0.8;
@@ -18,70 +20,62 @@ const Description = styled.div`
     font-size: 15px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
-    margin-bottom: 10px;
+    line-height: 1.7;
     @media only screen and (max-width: 768px){
-        font-size: 12px;
+        font-size: 13px;
     }
 `
 
 const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
 `
 
 const Card = styled.div`
-    width: 650px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    padding: 12px 16px;
+    width: 100%;
+    max-width: 760px;
+    border-radius: 16px;
+    padding: 20px 22px;
     justify-content: space-between;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    transition: all 0.3s ease-in-out;
+    gap: 16px;
+    background: linear-gradient(145deg, ${({ theme }) => theme.card}, ${({ theme }) => theme.bgLight});
+    border: 1px solid ${({ theme }) => theme.border};
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
     &:hover{
-        box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
-        transform: translateY(-5px);
+        border-color: ${({ theme }) => theme.primary};
+        box-shadow: 0 22px 52px ${({ theme }) => theme.primarySoft};
+        transform: translateY(-4px);
     }
     @media only screen and (max-width: 768px){
-        padding: 10px;
-        gap: 8px;
-        width: 300px;
+        padding: 16px;
+        gap: 12px;
     }
-
-    &:hover ${Document}{
-        display: flex;
-    }
-
-    &:hover ${Span}{
-        overflow: visible;
-        -webkit-line-clamp: unset;
-
-    }
-
-    border: 0.1px solid #306EE8;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `
 
 const Top = styled.div`
     width: 100%;
     display: flex;
-    gap: 12px
+    gap: 14px;
+    align-items: flex-start;
 `
 
 const Image = styled.img`
-    height: 50px;
-    background-color: transparent;
-    border-radius: 10px;
-    margin-top: 4px;
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 12px;
+    padding: 7px;
+    flex: 0 0 54px;
     @media only screen and (max-width: 768px){
-        height: 40px;
+        width: 44px;
+        height: 44px;
+        flex-basis: 44px;
     }
 `
 
@@ -93,11 +87,12 @@ const Body = styled.div`
 
 
 const Role = styled.div`
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
+    line-height: 1.35;
     @media only screen and (max-width: 768px){
-        font-size: 14px;
+        font-size: 16px;
     }
 `
 
@@ -123,8 +118,19 @@ const Date = styled.div`
 const Skills = styled.div`
     width: 100%;
     display: flex;
-    gap: 12px;
-    margin-top: -10px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 14px;
+
+    b {
+        color: ${({ theme }) => theme.text_primary};
+        flex: 0 0 auto;
+    }
+
+    @media only screen and (max-width: 768px){
+        flex-direction: column;
+        gap: 8px;
+    }
 `
 
 const ItemWrapper = styled.div`
@@ -134,9 +140,13 @@ const ItemWrapper = styled.div`
 `
 
 const Skill = styled.div`
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 500;
     color: ${({ theme }) => theme.text_primary + 99};
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.04);
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -169,7 +179,7 @@ const ExperienceCard = ({ experience }) => {
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill key={index}>{skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>
